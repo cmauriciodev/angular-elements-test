@@ -1,0 +1,8 @@
+<div *ngFor="let hit of hits">
+    <ng-container *ngIf="hit.story_title">
+        <h2>{{hit.story_title}}</h2>
+        <p>
+            {{hit.comment_text}}
+        </p>
+    </ng-container> 
+</div>
